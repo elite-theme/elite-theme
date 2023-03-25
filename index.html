@@ -9,6 +9,7 @@
         <!-- STYLE SHEETS -->
         <link rel="stylesheet" type="text/css" href="https://utopia-game.com/static/common/css/reset.css" />
         <link rel="stylesheet" type="text/css" href="https://utopia-game.com/static/common/css/layout.css" />
+        
         <!-- Extra stylesheet required for default theme -->
         <link rel="stylesheet" type="text/css" href="uniform.utopia.css" />
         <link rel="stylesheet" type="text/css" href="theme.css" />
@@ -27,13 +28,14 @@
             GA_googleFetchAds();
         </script>
         <!-- END OF TAG FOR head SECTION -->
+        <link rel="stylesheet" href="./out/output.css" />
     </head>
     <body>
         <div id="outer-container">
             <div id="inner-container">
                 <div id="header">
                     <a href="/">
-                        <div id="header-logo"></div>
+                        <div id="header-logo" class="font-bold text-lg">Logo</div>
                     </a>
                     <div id="header-navigation">
                         <div class="navigation"><a href="/lobby/">Lobby</a></div>
@@ -254,6 +256,8 @@
                     <div style="padding: 5px; margin-left: 100px; clear:both;">
                         <div style="border: 1px solid #D8D8D8; width: 728px; height:90px; font-size: 40px; background-color: #1C1C1C; color: #D8D8D8; text-align: center; line-height: 90px;">This is a test page for this theme</div>
                     </div>
+                    <p id="external" class="text-orange-800 md:bg-orange-200">Some external value that can be inserted</p>
+
                 </div>
             </div>
             <div id="footer">
@@ -276,4 +280,5 @@
             <div class="spinner"></div>
         </div>
     </body>
+    <script src="./app.js"></script>
 </html>
