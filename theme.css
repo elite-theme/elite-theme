@@ -934,3 +934,17 @@ form input[type=submit], .button-link {
 	width: auto;
 	font-size: 0.7em;
 }
+
+#right-column > div > div {
+  display: block;
+}
+
+
+@media only screen and (max-width : 700px) {
+  #right-column > div > div {
+    /* display: none; */
+    position: absolute;
+   left: 200px;
+   top: 1000px;
+  }
+}
